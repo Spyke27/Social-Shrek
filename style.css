@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.perfil h1{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #655341;
+    font-size: 45px;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    background-color: antiquewhite;
+    width: 360px;
+    margin-left: 450px;
+    border-radius: 20px;
+    box-shadow:#655341 2px 2px 20px;
+}
+img{
+    border-radius: 50%;
+    box-shadow: black 3px 3px 12px;
+}
+img:hover{
+    box-shadow: black 5px 5px 10px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: #786450;
+    border:1px solid #786450;
+    padding: auto;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0 auto 10px auto;
+    transition: all .3s ease-in-out;
+}
+.likess{
+    width: 70px;
+    height: 35px;
+    border-radius: 18px;
+    color: #ffffff;
+    border:1px solid #786450;
+    background-color: #a3907e;
+    padding: auto;
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+.boxlike{
+    display: flex;
+    justify-content: space-around;
+}
+.btn:hover{
+    background-color: #786450;
+    color: white;
+    cursor: pointer;
+}
+.botoes{
+    margin-top: 20px;
+    width: 350px;
+    height: 90px;
+    display: block;
+    margin-bottom: 90px;
+    }
